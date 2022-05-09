@@ -63,6 +63,13 @@ ul li a{
     height: 70px;
     left: 93px;
     top: 478px;
+    transition: trasnform 0.2s;
+
+}
+
+.botaopesquisar:hover{
+   
+        transform: scale(1.1);
 }
 
 .casa{
@@ -99,9 +106,9 @@ line-height: 72px;
 .abaixo{
    
 width: 453px;
-height: 72px;
+height: 96px;
 left: 97px;
-top: 368px;
+top: 360px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -125,3 +132,28 @@ line-height: 24px;
   border-radius= 50px;
 }
 
+.layer7{
+
+    position: absolute;
+    top: 30%;
+    width: 10%;
+    text-align: center;
+    font-size: 18px;
+    left: 80px;
+    top: 190px;
+}
+
+.grupo7{
+    position: absolute;
+width: 491px;
+height: 144px;
+left: 160px;
+top: 230px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 50;
+font-size: 52px;
+line-height: 72px;
+
+}
